@@ -1,0 +1,67 @@
+{
+  "rust_crate": "cargo-neat",
+  "template": {
+    "x86_64_linux_gnu": {
+      "url": "https://github.com/killzoner/cargo-neat/releases/download/${version}/cargo-neat-${version}-x86_64-unknown-linux-gnu.tar.gz",
+      "bin": "cargo-neat-${version}-x86_64-unknown-linux-gnu/cargo-neat"
+    },
+    "x86_64_macos": {
+      "url": "https://github.com/killzoner/cargo-neat/releases/download/${version}/cargo-neat-${version}-x86_64-apple-darwin.tar.gz",
+      "bin": "cargo-neat-${version}-x86_64-apple-darwin/cargo-neat"
+    },
+    "x86_64_windows": {
+      "url": "https://github.com/killzoner/cargo-neat/releases/download/${version}/cargo-neat-${version}-x86_64-pc-windows-msvc.tar.gz",
+      "bin": "cargo-neat-${version}-x86_64-pc-windows-msvc/cargo-neat.exe"
+    },
+    "aarch64_macos": {
+      "url": "https://github.com/killzoner/cargo-neat/releases/download/${version}/cargo-neat-${version}-aarch64-apple-darwin.tar.gz",
+      "bin": "cargo-neat-${version}-aarch64-apple-darwin/cargo-neat"
+    }
+  },
+  "license_markdown": "[MIT](https://github.com/killzoner/cargo-neat/blob/master/LICENSE-MIT) OR [Apache-2.0](https://github.com/killzoner/cargo-neat/blob/master/LICENSE-APACHE)",
+  "latest": {
+    "version": "0.2.0"
+  },
+  "0.2": {
+    "version": "0.2.0"
+  },
+  "0.2.0": {
+    "x86_64_linux_gnu": {
+      "etag": "0x8DE4A0819F88F6F",
+      "checksum": "55d1bef6bc316c24ccb2a769039355e3b349ca26c840c8b34385b0968bfa1ad7"
+    },
+    "x86_64_macos": {
+      "etag": "0x8DE4A0808BD3C30",
+      "checksum": "1699c9a8b5f49c104ccece946cc660ef0feacdba78ba492c75ecfb4864dacad4"
+    },
+    "x86_64_windows": {
+      "etag": "0x8DE4A090813B774",
+      "checksum": "af02e3a20064aa5b516aa19ad25422cd21a489050fc735f359ac9d418bd010b1"
+    },
+    "aarch64_macos": {
+      "etag": "0x8DE4A0832C810C4",
+      "checksum": "99720a602feab1c7e3b2cd35a8a77e60a193396226693093046a9f61109b27bb"
+    }
+  },
+  "0.1": {
+    "version": "0.1.1"
+  },
+  "0.1.1": {
+    "x86_64_linux_gnu": {
+      "etag": "0x8DE46E33C14EB08",
+      "checksum": "d6085d8297eccea58f426afb0dd00c311929e6d4b95a454f357d5bbf6f3b1274"
+    },
+    "x86_64_macos": {
+      "etag": "0x8DE46E376A878C8",
+      "checksum": "260b7fc0ef780a4b165e9892b26a43055a3ef3853e6407bb7b031a179d32cc1d"
+    },
+    "x86_64_windows": {
+      "etag": "0x8DE46E42685DB79",
+      "checksum": "4e2fb28ed5c30289541c3322ab93c1092bd6bf345bf651b9992993cb294f996e"
+    },
+    "aarch64_macos": {
+      "etag": "0x8DE46E364566725",
+      "checksum": "5f7fb5b1038d071afd98fb148c655905b84fc9b0934d1288088981dd3e9b48b8"
+    }
+  }
+}

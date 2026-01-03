@@ -1,11 +1,11 @@
 {
-  "repository": "https://github.com/bnjbvr/cargo-machete",
-  "tag_prefix": "v",
+  "repository": "https://github.com/killzoner/cargo-neat",
+  "tag_prefix": "",
   "rust_crate": "${package}",
-  "asset_name": "${package}-v${version}-${rust_target}.tar.gz",
+  "asset_name": "${package}-${version}-${rust_target}.tar.gz",
   "bin": "${package}-${version}-${rust_target}/${package}${exe}",
   "platform": {
-    "x86_64_linux_musl": {},
+    "x86_64_linux_gnu": {},
     "x86_64_macos": {},
     "x86_64_windows": {},
     "aarch64_macos": {}
